@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasper</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/temp 2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Start header -->
+    <header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./img/logo.png " alt="">
+            </a>
+                <nav>
+                    <i class="fa-solid fa-bars toogle-menu"></i>
+                    <ul>
+                        <li><a href="#Home" class="home">Home</a></li>
+                        <li><a href="#Services">Services</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Pricing">Pricing</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </nav>
+        </div>
+    </header>
+    <!-- End header -->
+        <!-- Start landing  -->
+        <div class="landing">
+        <div class="overlay"></div>
+        <div class="text">
+            <div class="content">
+                <h2>Hello World <br>
+                    We Are Kasper We Make Art.</h2>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+            </div>
+        </div>
+        <i class="fa-solid fa-angle-right angle" ></i>
+        <i class="fa-solid fa-angle-left angle"></i>
+        <ul class="bullet">
+            <li></li>
+            <li class="active"></li>
+            <li></li>
+        </ul>
+        </div>
+        <!-- End landng  -->
+        <!-- Start services  -->
+         <div class="services">
+            <div class="container">
+                <div class="main-heading">
+                    <h2> Services</h2>
+                    <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+                </div>
+                <div class="services-content">
+                    <div class="srv-box">
+                        <i class="fas fa-desktop fa-3x"></i>
+                        <div class="text">
+                            <h3>Vorem amet intuitive</h3>
+                            <p>                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                                tincidunt nibh pulvinar a. Curabitur aliquet quam.</p>
+                        </div>
+                    </div>
+                    <div class="srv-box">
+                        <i class="fas fa-cog fa-3x"></i>
+                        <div class="text">
+                            <h3>Vorem amet intuitive</h3>
+                            <p>                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                                tincidunt nibh pulvinar a. Curabitur aliquet quam.</p>
+                        </div>
+                    </div>
+                    <div class="srv-box">
+                        <i class="fas fa-camera fa-3x"></i>
+                        <div class="text">
+                            <h3>Vorem amet intuitive</h3>
+                            <p>                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                                tincidunt nibh pulvinar a. Curabitur aliquet quam.</p>
+                        </div>
+                    </div>
+                    <div class="srv-box">
+                        <i class="fas fa-pencil-ruler fa-3x"></i>
+                        <div class="text">
+                            <h3>Vorem amet intuitive</h3>
+                            <p>                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                                tincidunt nibh pulvinar a. Curabitur aliquet quam.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+        <!-- End services  -->
+         <!-- Start design  -->
+          <div class="design">
+            <div class="overlay"></div>
+            <div class="image">
+                <img src="./img/mobile.png" alt="Mobile" />
+              </div>
+              <div class="text">
+            <h3>
+                Our Design Comes With...</h3>
+            <ul>
+                <li>Responsive Design</li>
+                <li>Modern And Clean Design</li>
+                <li>Clean Code</li>
+                <li>Browser Friendly</li>
+            </ul>
+        </div>
+          </div>
+        </div>
+        <!-- End design  -->
+        <!-- Start Portfolio  -->
+         <div class="portfolio">
+            <div class="container">
+                <div class="main-heading">
+                    <h2> portfolio </h2>
+                    <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt</p>
+                </div>
+                <ul class="shefull">
+                    <li class="active">all</li>
+                    <li>app</li>
+                    <li>photo</li>
+                    <li>web</li>
+                    <li>print</li>
+                </ul>
+            </div>
+            <div class="img-container">
+                <div class="box">
+                    <img src="./img/shuffle-01.jpg" alt="">
+                    <h3>Awesome Image</h3>
+                    <p>Photography</p>
+                </div>
+                <div class="box">
+                    <img src="./img/shuffle-02.jpg" alt="">
+                    <h3>Awesome Image</h3>
+                    <p>Photography</p>
+                </div>
+                <div class="box">
+                    <img src="./img/shuffle-03.jpg" alt="">
+                    <h3>Awesome Image</h3>
+                    <p>Photography</p>
+                </div>
+                <div class="box">
+                    <img src="./img/shuffle-04.jpg" alt="">
+                    <h3>Awesome Image</h3>
+                    <p>Photography</p>
+                </div>
+                <div class="box">
+                    <img src="./img/shuffle-05.jpg" alt="">
+                    <div class="caption">
+                        <h4>Awesome Image</h4>
+                        <p>Photography</p>
+                      </div>
+                </div>
+                <div class="box">
+                    <img src="./img/shuffle-06.jpg" alt="">
+                    <div class="caption">
+                        <h4>Awesome Image</h4>
+                        <p>Photography</p>
+                      </div>
+                </div>
+                <div class="box">
+                    <img src="./img/shuffle-07.jpg" alt="">
+                    <div class="caption">
+                        <h4>Awesome Image</h4>
+                        <p>Photography</p>
+                      </div>
+                </div>
+                <div class="box">
+                    <img src="./img/shuffle-08.jpg" alt="">
+                    <div class="caption">
+                        <h4>Awesome Image</h4>
+                        <p>Photography</p>
+                      </div>
+                </d
